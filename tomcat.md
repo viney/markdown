@@ -54,7 +54,17 @@
 
 > export PATH=$PATH:$JAVA_HOME/bin:$JAVA_HOME/jre/bin
 
+**重新加载配置文件**
+
+> source /etc/profile
+
 ### <a name="6" />JDK验证
+
+**直接查看JDK版本或者写个HelloWorld!**
+
+> java -version
+
+**没有错误信息就是安装成功**
 
 ## <a name="7" />Tomcat安装
 
