@@ -71,11 +71,35 @@
 
 ### <a name="8" />4.1 Tomcat下载
 
+> 以Tomcat7.x为例
+
+> wget -c http://apache.01link.hk/tomcat/tomcat-7/v7.0.47/bin/apache-tomcat-7.0.47.tar.gz
+
 ### <a name="9" />4.2 Tomcat解压缩
+
+> 使用tar解压缩
+
+> tar -xvf apache-tomcat-7.0.47.tar.gz
 
 ### <a name="10" />4.3 Tomcat安装
 
+> 我们只需要复制tomact解压缩之后的文件夹拷贝到/usr/local目录下即可
+
+> sudo cp -rf apache-tomcat-7.0.47 /usr/local
+
+> 进入/usr/local目录,修改apache-tomcat-7.0.47为tomcat
+
+> sudo mv apache-tomcat-7.0.47 tomcat
+
 ### <a name="11" />4.4 Tomcat验证
+
+> 进入TOMCAT_BIN目录(/usr/local/tomcat/bin),执行startup.sh (windows执行startup.bat)
+
+> ./startup.sh
+
+> 打开浏览器输入地址可以看到tomcat主页面: http://127.0.0.1:8080
+
+> http://127.0.0.1:8080
 
 ## <a name="12" />4.5 多项目配置
 
