@@ -20,7 +20,7 @@
     - 6.2 [HAProxy安装](#toc_17)
     - 6.3 [HAProxy配置](#toc_18)
 
-## 版本
+## <a name="toc_1" 版本/>
 
 > v0.1
 
