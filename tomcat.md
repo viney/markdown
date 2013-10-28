@@ -1,4 +1,4 @@
-# <a name="0" />目录
+# <a name="0" />1 目录
 
 * 1 **[目录](#0)**
 * 2 **[版本](#1)**
@@ -20,18 +20,18 @@
     - 6.2 [HAProxy安装](#17)
     - 6.3 [HAProxy配置](#18)
 
-## <a name="1" />版本
+## <a name="1" />2 版本
 
 > v0.1
 
-## <a name="2" />JDK安装
+## <a name="2" />3 JDK安装
 
-### <a name="3" />JDK下载
+### <a name="3" />3.1 JDK下载
 
 > 下载64位JDK
 > wget -c http://download.oracle.com/otn-pub/java/jdk/7u45-b18/jdk-7u45-linux-x64.rpm
 
-### <a name="4" />JDK安装
+### <a name="4" />3.2 JDK安装
 
 **检查JDK信息**
 
@@ -44,7 +44,7 @@
 **安装JDK**
 > rpm -ivh jdk-7u45-linux-x64.rpm
 
-### <a name="5" />JDK配置
+### <a name="5" />3.3 JDK配置
 
 **配置信息写到: vim /etc/profile**
 
@@ -58,7 +58,7 @@
 
 > source /etc/profile
 
-### <a name="6" />JDK验证
+### <a name="6" />3.4 JDK验证
 
 **直接查看JDK版本或者写个HelloWorld!**
 
@@ -66,26 +66,26 @@
 
 **没有错误信息就是安装成功**
 
-## <a name="7" />Tomcat安装
+## <a name="7" />4 Tomcat安装
 
-### <a name="8" />Tomcat下载
+### <a name="8" />4.1 Tomcat下载
 
-### <a name="9" />Tomcat解压缩
+### <a name="9" />4.2 Tomcat解压缩
 
-### <a name="10" />Tomcat安装
+### <a name="10" />4.3 Tomcat安装
 
-### <a name="11" />Tomcat验证
+### <a name="11" />4.4 Tomcat验证
 
-## <a name="12" />多项目配置
+## <a name="12" />4.5 多项目配置
 
-### <a name="13" />Tomcat配置多个项目
+### <a name="13" />5 Tomcat配置多个项目
 
-### <a name="14" />Tomcat每个项目对应唯一端口
+### <a name="14" />5.1 Tomcat每个项目对应唯一端口
 
-## <a name="15" />HAProxy安装
+## <a name="15" />6 HAProxy安装
 
-### <a name="16" />HAProxy下载
+### <a name="16" />6.1 HAProxy下载
 
-### <a name="17" />HAProxy安装
+### <a name="17" />6.2 HAProxy安装
 
-### <a name="18" />HAProxy配置
+### <a name="18" />6.3 HAProxy配置
