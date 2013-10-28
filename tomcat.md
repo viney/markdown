@@ -28,7 +28,8 @@
 
 ### <a name="3" />3.1 JDK下载
 
-> 下载64位JDK
+> 下载64位JDK,我们以JDK7.x为例。
+
 > wget -c http://download.oracle.com/otn-pub/java/jdk/7u45-b18/jdk-7u45-linux-x64.rpm
 
 ### <a name="4" />3.2 JDK安装
